@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | Balaji Dental Centre, Coimbatore</title>
+    <meta name="description" content="Book an appointment at Balaji Dental Centre — 1789, Trichy Rd, Ramanathapuram, Coimbatore 641045. Call +91 91718 93666. Mon–Sat 9AM–8PM.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="mouse-follower"></div>
+
+<!-- NAV -->
+<nav class="navbar">
+    <a href="index.html" class="nav-brand">
+        <div class="nav-brand-title">
+            <span class="nav-brand-dental">BALAJI</span>
+            <span class="nav-brand-care">Dental</span>
+        </div>
+        <span class="nav-brand-sub">Dental Centre · Coimbatore</span>
+    </a>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="doctors.html">Our Doctor</a>
+        <a href="contact.html" class="active">Contact</a>
+    </div>
+    <div class="nav-right">
+        <a href="contact.html" class="btn btn-primary btn-sm">Book Appointment</a>
+    </div>
+    <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<div class="mobile-menu-overlay">
+    <button class="mobile-menu-close">✕</button>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="doctors.html">Our Doctor</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="contact-hero">
+    <div class="container">
+        <div class="section-label fade-in-up" style="justify-content:center">பாலாஜி பல் மையம்</div>
+        <h1 class="fade-in-up delay-100">Let's get your<br><em>smile started.</em></h1>
+        <p class="fade-in-up delay-200">Fill in the form or call us directly. We'll confirm your appointment within a few hours — no waiting, no hassle.</p>
+    </div>
+</section>
+
+<!-- CONTACT MAIN -->
+<section class="contact-main">
+    <div class="container">
+        <div class="contact-grid">
+
+            <!-- FORM -->
+            <div class="contact-form-card fade-in-up">
+                <div class="form-title">Request an Appointment</div>
+                <div class="form-sub">We'll call you back to confirm a slot that works for you.</div>
+
+                <form id="appointment-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Priya" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Krishnan">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email (Optional)</label>
+                            <input type="email" id="email" name="email" placeholder="priya@example.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="patient-type">Patient Type</label>
+                        <select id="patient-type" name="patient-type">
+                            <option value="adult">Adult Patient</option>
+                            <option value="child">Child Patient (Pediatric)</option>
+                            <option value="family">Family — multiple members</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="treatment">Treatment Required</label>
+                        <select id="treatment" name="treatment">
+                            <option value="">Not sure — need consultation</option>
+                            <option value="pediatric">Pediatric Dentistry (Child)</option>
+                            <option value="rct">Root Canal Treatment</option>
+                            <option value="filling">Cavity Filling</option>
+                            <option value="whitening">Teeth Whitening</option>
+                            <option value="implants">Dental Implants</option>
+                            <option value="orthodontics">Braces &amp; Alignment</option>
+                            <option value="checkup">General Checkup &amp; Cleaning</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferred Time</label>
+                            <select id="time" name="time">
+                                <option value="">Any time</option>
+                                <option value="morning">Morning (9 AM – 12 PM)</option>
+                                <option value="afternoon">Afternoon (12 PM – 4 PM)</option>
+                                <option value="evening">Evening (4 PM – 8 PM)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="notes">Notes / Symptoms (Optional)</label>
+                        <textarea id="notes" name="notes" placeholder="E.g. toothache, child's first visit, broken tooth, or just a routine checkup..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary form-submit">Book Appointment</button>
+                    <p class="form-note">We typically confirm within 2–4 hours during clinic hours. Your information is kept private.</p>
+                </form>
+            </div>
+
+            <!-- SIDEBAR -->
+            <div class="contact-info-card fade-in-up delay-200">
+
+                <div class="contact-info-block">
+                    <div class="contact-info-title">Balaji Dental Centre</div>
+                    <div style="font-size:13px;color:var(--gold);font-style:italic;margin-bottom:20px;font-family:var(--font-display)">பாலாஜி பல் மையம்</div>
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">
+                            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 1C5.24 1 3 3.24 3 6c0 3.75 5 9 5 9s5-5.25 5-9c0-2.76-2.24-5-5-5zm0 6.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>
+                        </div>
+                        <div>
+                            <div class="contact-detail-label">Address</div>
+                            <div class="contact-detail-val">1789, Trichy Rd, Olymbus<br>Ramasamy Nagar, Ramanathapuram<br>Coimbatore, Tamil Nadu 641045</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">
+                            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2.5 3.5a1 1 0 011-1h1.5a1 1 0 011 .894l.5 2.5a1 1 0 01-.553.894l-.9.45a9 9 0 004.715 4.715l.45-.9a1 1 0 01.894-.553l2.5.5a1 1 0 01.894 1V12a1 1 0 01-1 1C5.373 13 1 8.627 1 4.5A1 1 0 012 3.5h.5z"/></svg>
+                        </div>
+                        <div>
+                            <div class="contact-detail-label">Phone</div>
+                            <div class="contact-detail-val"><a href="tel:+919171893666">+91 91718 93666</a></div>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-detail-icon">
+                            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6"/><path d="M8 4v4l2 2"/></svg>
+                        </div>
+                        <div>
+                            <div class="contact-detail-label">Clinic Hours</div>
+                            <div class="contact-detail-val">
+                                <div class="hours-grid" style="margin-top:8px">
+                                    <div class="hours-row"><strong>Monday – Saturday</strong><span>9 AM – 8 PM</span></div>
+                                    <div class="hours-row"><strong>Sunday</strong><span>By Appointment</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info-block">
+                    <div class="contact-info-title">Your Doctor</div>
+                    <div class="doctors-on-call">
+                        <div class="doc-on-call">
+                            <div class="doc-on-call-avatar">MM</div>
+                            <div>
+                                <div class="doc-on-call-name">Dr. Menaka Manickaraj</div>
+                                <div class="doc-on-call-spec">Pediatric Dentistry · Restorative &amp; Cosmetic</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top:20px;padding:16px;background:var(--gold-light);border-radius:12px;border:1px solid var(--border-gold)">
+                        <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+                            <span style="color:var(--gold);font-size:16px">★★★★★</span>
+                            <span style="font-size:13px;font-weight:600;color:var(--forest)">4.8 on Google</span>
+                        </div>
+                        <p style="font-size:12px;color:var(--text-secondary);font-style:italic;line-height:1.6">"The music and lighting make it genuinely different. My kids don't dread coming here anymore."</p>
+                    </div>
+                </div>
+
+                <div class="whatsapp-block fade-in-up delay-300">
+                    <div class="whatsapp-block-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </div>
+                    <div class="whatsapp-block-text">
+                        <strong>Prefer WhatsApp?</strong>
+                        <span>Message us to book instantly</span>
+                    </div>
+                    <a href="https://wa.me/919171893666?text=Hi%20Balaji%20Dental%20Centre%2C%20I'd%20like%20to%20book%20an%20appointment." target="_blank" class="whatsapp-block-btn">Chat →</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand fade-in-up">
+                <div><span class="footer-dental">BALAJI</span><span class="footer-care">Dental</span></div>
+                <span class="footer-sub">Dental Centre · Coimbatore</span>
+                <div class="footer-tagline" style="margin-top:12px">பாலாஜி பல் மையம்</div>
+                <div class="footer-tagline">Calm care for every smile.</div>
+            </div>
+            <div class="footer-col fade-in-up delay-100">
+                <h4>Treatments</h4>
+                <div class="footer-links">
+                    <a href="services.html">Pediatric Dentistry</a>
+                    <a href="services.html">Root Canal Treatment</a>
+                    <a href="services.html">Cavity Fillings</a>
+                    <a href="services.html">Teeth Whitening</a>
+                    <a href="services.html">Dental Implants</a>
+                    <a href="services.html">Braces &amp; Alignment</a>
+                </div>
+            </div>
+            <div class="footer-col fade-in-up delay-200">
+                <h4>Visit Us</h4>
+                <div class="footer-links">
+                    <p>1789, Trichy Rd, Olymbus</p>
+                    <p>Ramasamy Nagar, Ramanathapuram</p>
+                    <p>Coimbatore, Tamil Nadu 641045</p>
+                    <a href="tel:+919171893666" style="margin-top:12px;display:block">+91 91718 93666</a>
+                    <p style="margin-top:12px">Mon–Sat: 9 AM – 8 PM</p>
+                    <p>Sunday: By Appointment</p>
+                </div>
+            </div>
+            <div class="footer-col fade-in-up delay-300">
+                <h4>Connect</h4>
+                <div class="footer-links">
+                    <a href="https://wa.me/919171893666?text=Hi%20Balaji%20Dental%20Centre%2C%20I'd%20like%20to%20book%20an%20appointment." target="_blank">WhatsApp Us</a>
+                    <a href="doctors.html">Our Doctor</a>
+                    <a href="services.html">All Treatments</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom fade-in-up">
+            <p>© 2024 Balaji Dental Centre, Ramanathapuram, Coimbatore. பாலாஜி பல் மையம்.</p>
+            <p>Website by ElevateUX.</p>
+        </div>
+    </div>
+</footer>
+
+<a href="https://wa.me/919171893666?text=Hi%20Balaji%20Dental%20Centre%2C%20I'd%20like%20to%20book%20an%20appointment." target="_blank" class="whatsapp-float" title="WhatsApp Us">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
